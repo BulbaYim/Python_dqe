@@ -9,9 +9,6 @@ list_of_dict = [
 ]
 print('Generated list:\n' f'{list_of_dict}\n')
 
-list_key_value = []
-num_of_dict = 0
-
 '''convert list of dictionaries to list 
 [ [key0, value0, number_of_dict], ... [keyN, valueN, number_of_dict] ]
 '''
