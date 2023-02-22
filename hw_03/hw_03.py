@@ -20,39 +20,42 @@ text = '''homEwork:
 whitespaces_number = len([symbol for symbol in text if symbol.isspace()])
 print(f'The number of whitespaces in non-normalized text is {whitespaces_number}.')
 
-text_rows = text.split('\n') # split text and get array of rows
+text_rows = text.split('\n')  # split text and get array of rows
 normalized_sentences = []
 last_words = []
 
 for row in text_rows:
-	if row in ('', ' ') : 
-		continue # go to next element of array, if current is empty
-	
-	# delete '\t', start/end whitespaces, make lower case
-	row = row.replace('\t', '').strip().lower()	
-	
-	# split row in sentences array, add '.', delete start/end whitespaces
-	sentences = [
-		sentence + '.' if sentence[-1] != ':' else sentence 
-	        for sentence in row.split('.') if sentence != ''
-	]
-	normalized_sentence = ''
-	
-	for sentence in sentences:
-		sentence = sentence.strip().capitalize()
-		
-		# change 'iz' on 'is'
-		sentence = re.sub("\s{1}iz\s{1}", ' is ',  sentence, re.IGNORECASE)
-		
-		# find the last word of the sentence and add it to last_words array
-		for match in re.finditer("\s{1}[A-Za-z0-9_-]+[.]$", sentence, re.IGNORECASE):
-			last_word = sentence[match.start() + 1: match.end() - 1]
-			last_words.append(last_word)
-		normalized_sentence +=  ' ' + sentence
+    if row in ('', ' '):
+        continue  # go to next element of array, if current is empty
 
-	normalized_sentences.append(normalized_sentence.strip())
- 
+    # delete '\t', start/end whitespaces, make lower case
+    row = row.replace('\t', '').strip().lower()
+    
+    # exclude empty rows
+    filtered_senteces = filter(lambda sentence: sentence !='', row.split('.'))
+    
+	# split row in sentences array, add '.', delete start/end whitespaces
+    sentences = [
+        sentence + '.' if sentence[-1] != ':' else sentence
+        	for sentence in list(filtered_senteces)
+    ]
+    normalized_sentence = ''
+
+    for sentence in sentences:
+        sentence = sentence.strip().capitalize()
+
+        # change 'iz' on 'is'
+        sentence = re.sub(r"\s{1}iz\s{1}", ' is ',  sentence, re.IGNORECASE)
+
+        # find the last word of the sentence and add it to last_words array
+        for match in re.finditer(r"\s{1}[A-Za-z0-9_-]+[.]$", sentence, re.IGNORECASE):
+            last_word = sentence[match.start() + 1: match.end() - 1]
+            last_words.append(last_word)
+        normalized_sentence += ' ' + sentence
+
+    normalized_sentences.append(normalized_sentence.strip())
+
 last_sentence = ' '.join(last_words)
 normalized_sentences.append(last_sentence.capitalize() + '.')
-finall_text = '\n'.join(sentence for sentence in normalized_sentences)
+finall_text = '\n'.join(normalized_sentences)
 print(finall_text)
