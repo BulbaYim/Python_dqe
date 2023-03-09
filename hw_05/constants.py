@@ -1,0 +1,3 @@
+NEWS_TEXT = 'News -------------------------\n{main_text}\n{city}, {date_time}\n------------------------------\n\n'
+AD_TEXT = 'Private Ad -------------------\n{main_text}\nActual until: {until_date}, {days_left} days left\n------------------------------\n\n'
+CLUB_TEXT = 'La Liga result ---------------\nClub name: {team}\n{position} position in championat with {poits} points\n------------------------------\n\n'

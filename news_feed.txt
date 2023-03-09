@@ -13,3 +13,148 @@ Club name: Real Madrid
 2 position in championat with 52 points
 ------------------------------
 
+News -------------------------
+test1
+gomel, 03/08/2023 15.57
+------------------------------
+
+News -------------------------
+test2
+minsk, 03/08/2023 16.01
+------------------------------
+
+Private Ad -------------------
+test11
+Actual until: 03/12/2023, 3 days left
+------------------------------
+
+News -------------------------
+test5
+mogilev, 03/08/2023 16.18
+------------------------------
+
+La Liga result ---------------
+Club name: Barcelona
+1 position in championat with 62 points
+------------------------------
+
+La Liga result ---------------
+Club name: Elche
+20 position in championat with 12 points
+------------------------------
+
+News -------------------------
+TEST34
+PARIS, 03/08/2023 17.23
+------------------------------
+
+Private Ad -------------------
+test99
+Actual until: 03/30/2023, 21 days left
+------------------------------
+
+La Liga result ---------------
+Club name: Barcelona
+1 position in championat with 62 points
+------------------------------
+
+La Liga result ---------------
+Club name: Elche
+20 position in championat with 12 points
+------------------------------
+
+News -------------------------
+test222
+brest, 03/08/2023 17.39
+------------------------------
+
+Private Ad -------------------
+test1111
+Actual until: 03/29/2025, 751 days left
+------------------------------
+
+News -------------------------
+test888
+gomel, 03/08/2023 17.48
+------------------------------
+
+Private Ad -------------------
+eeeeeerrrr
+Actual until: 03/30/2023, 21 days left
+------------------------------
+
+La Liga result ---------------
+Club name: Elche
+20 position in championat with 12 points
+------------------------------
+
+News -------------------------
+None
+None, None
+------------------------------
+
+News -------------------------
+None
+None, None
+------------------------------
+
+News -------------------------
+test444
+gomel, 03/08/2023 17.56
+------------------------------
+
+Private Ad -------------------
+test321
+Actual until: 03/30/3333, 478489 days left
+------------------------------
+
+La Liga result ---------------
+Club name: Barcelona
+1 position in championat with 62 points
+------------------------------
+
+News -------------------------
+sd
+gomel, 03/08/2023 18.22
+------------------------------
+
+News -------------------------
+GG
+GOMEL, 03/08/2023 18.32
+------------------------------
+
+La Liga result ---------------
+Club name: Real Madrid
+2 position in championat with 53 points
+------------------------------
+
+News -------------------------
+test43545
+gomel, 03/08/2023 18.40
+------------------------------
+
+Private Ad -------------------
+test8903
+Actual until: 03/30/3023, 365263 days left
+------------------------------
+
+La Liga result ---------------
+Club name: Barcelona
+1 position in championat with 62 points
+------------------------------
+
+News -------------------------
+test341
+gomel, 03/10/2023 00.05
+------------------------------
+
+Private Ad -------------------
+sdf
+Actual until: 03/30/2023, 19 days left
+------------------------------
+
+La Liga result ---------------
+Club name: Barcelona
+1 position in championat with 62 points
+------------------------------
+
